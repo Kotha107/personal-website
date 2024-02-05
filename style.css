@@ -23,9 +23,9 @@ h1{
 .one-third-width{
     float: left;
     border: 1px solid rebeccapurple;
-    width: 33.33%;
+    width: 24%;
+    margin-left: 2%;
    
-    padding: 2%;
    
     
     
@@ -57,6 +57,21 @@ section{
     background-position: left;
     
 }
+.background-image3
+{
+    background-image: url(images/latest-work-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.background-image4
+{
+    background-image: url(images/footer-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
 #image-size{
    height: 80%;
    width: 80%;
@@ -77,4 +92,21 @@ p{
 
 #margin-text{
     margin-top: 100px;
+}
+#image-scalling{
+    margin-left: 12% ;
+}
+#text-style{
+    text-align: center;
+    color: gray;
+}
+.box{
+    width: 50%;
+    height: 59px;
+    margin-left: 25%;
+    padding: 2%;
+    background-image: linear-gradient(rgb(238, 67, 118),rgb(233, 10, 140));
+    border-radius: 7px;
+    text-align: center;
+    color:white;
 }
